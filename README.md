@@ -14,10 +14,12 @@ Reddit /r/ronpaulcoin: http://www.reddit.com/r/ronpaulcoin
 RPC Original Github: https://github.com/ronpaulcoin/ronpaulcoin (not updated since 2014)
 
 
+
 ///RONPAULCOIN.CONF INSTALLATION
 Before attempting the steps below start your RonPaulCoin wallet for the very first time and after it opens and attempts to sync,
 wait a couple of seconds and then quit the program. This allows the wallet software to generate the RonPaulCoin directories the 
 .conf file gets placed inside of. 
+
 
 
 Windows Users 
