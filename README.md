@@ -1,7 +1,7 @@
 ****RonPaulCoin hasn't been mined since the end of 2025**** (HELP!)
 
 RonPaulCoin genesis (first) block of data was created on December 23, 2013. 
-Google search, "When did the Federal Reserve start?" if you don't already know.
+Google search, "When did the Federal Reserve start?"
 
 The RonPaulCoin wallet files hosted here are the 0.8.6.2 version wallets from early 2014.
  
@@ -12,7 +12,6 @@ BlockExplorer: http://explorer.scrypt.ovh/ronpaulcoin (Currently offline in Euro
 Reddit /r/ronpaulcoin: http://www.reddit.com/r/ronpaulcoin
 
 RPC Original Github: https://github.com/ronpaulcoin/ronpaulcoin (not updated since 2014)
-Dr. Paul asked about cryptocurrencies in 2004: https://www.youtube.com/watch?v=hPQjEoZ2RdI
 
 ///RONPAULCOIN.CONF INSTALLATION
 Before attempting the steps below start your RonPaulCoin wallet for the very first time and after it opens and attempts to sync,
