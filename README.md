@@ -8,7 +8,6 @@ This repository serves as an archival mirror providing historical **version 0.8.
 
 ## Resources & Links
 
-* 💬 **Bitcointalk Thread:** [Topic 515946](https://bitcointalk.org/index.php?topic=515946)
 * 📊 **Block Explorer:** [explorer.scrypt.ovh/ronpaulcoin](http://explorer.scrypt.ovh/ronpaulcoin) *(Currently offline in Europe)*
 * 🌐 **Reddit Community:** [r/ronpaulcoin](https://www.reddit.com/r/ronpaulcoin)
 * 💻 **Original GitHub:** [ronpaulcoin/ronpaulcoin](https://github.com/ronpaulcoin/ronpaulcoin)
