@@ -38,5 +38,22 @@ Before launching the wallet, ensure you have placed the active `ronpaulcoin.conf
 1. Ensure your RonPaulCoin wallet is completely closed.
 2. Open File Explorer and ensure **Hidden items** is checked under the View tab.
 3. Navigate to your app data folder:
-   ```text
-   C:\Users\YOUR-USERNAME\AppData\Roaming\RonPaulCoin
+   `C:\Users\YOUR-USERNAME\AppData\Roaming\RonPaulCoin`
+4. Copy the `ronpaulcoin.conf` file from this repository directly into that folder.
+5. Launch your RonPaulCoin wallet.
+
+### macOS Setup
+1. Ensure your RonPaulCoin wallet is completely closed.
+2. Open Finder, select the **Go** menu from the top menu bar, and click **Go to Folder...**
+3. Enter `~/Library` and click Go.
+4. Open **Application Support**, then open the **RonPaulCoin** folder.
+5. Copy the `ronpaulcoin.conf` file from this repository directly into that folder.
+6. Launch your RonPaulCoin wallet.
+
+### Linux Setup
+1. Ensure `ronpaulcoind` is stopped:
+   `ronpaulcoind stop`
+2. Copy `ronpaulcoin.conf` into your hidden data directory:
+   `cp ronpaulcoin.conf ~/.ronpaulcoin/ronpaulcoin.conf`
+3. Restart daemon:
+   `ronpaulcoind -daemon`
