@@ -1,37 +1,42 @@
 # RonPaulCoin Archive
 
-RonPaulCoin is a legacy cryptocurrency whose genesis block was created on **December 23, 2013**. 
+RonPaulCoin is a legacy cryptocurrency whose genesis block was created on December 23, 2013—exactly 100 years to the day after the passage of the Federal Reserve Act.
 
-This repository serves as an archival mirror providing historical **version 0.8.6.2** wallet builds from early 2014 for Windows and macOS, alongside essential configuration files.
+This repository serves as an archival mirror providing historical version 0.8.6.2 wallet builds from early 2014 for Windows and macOS, alongside modern configuration directives and validated ledger bootstrap archives.
 
 ---
 
 ## Resources & Links
 
-* 📊 **Block Explorer:** [explorer.scrypt.ovh/ronpaulcoin](http://explorer.scrypt.ovh/ronpaulcoin) *(Currently offline in Europe)*
-* 🌐 **Reddit Community:** [r/ronpaulcoin](https://www.reddit.com/r/ronpaulcoin)
-* 💻 **Original GitHub:** [ronpaulcoin/ronpaulcoin](https://github.com/ronpaulcoin/ronpaulcoin)
+* 🌐 **Live Gateway & Node:** [realtrueog.com](https://realtrueog.com)
+* 💬 **Discord Chat:** [Join the RonPaulCoin Discord](https://discord.com/invite/CWJWaES44p)
+* 🏛️ **Reddit Community:** [r/ronpaulcoin](https://reddit.com/r/ronpaulcoin)
+* 📜 **Original Codebase (2013):** [ronpaulcoin/ronpaulcoin](https://github.com/ronpaulcoin/ronpaulcoin)
+* 📦 **Blockchain Bootstrap Release:** [Download v2,221,495 (.zip)](https://github.com/rpcfiles/rpcfiles/releases/latest)
+
+---
+
+## Fast Sync Guide (Blockchain Bootstrap)
+
+Syncing over 2.2 million blocks across peer-to-peer gossip can take days on legacy nodes. Using the pre-validated bootstrap snapshot (`blk00001.dat`–`blk00007.dat`) syncs your client in minutes.
+
+1. Download **`RonPaulCoin-Bootstrap-blk-2221495.zip`** from the [Releases page](https://github.com/rpcfiles/rpcfiles/releases/latest).
+2. Ensure your RonPaulCoin wallet or daemon is completely closed.
+3. Extract all `.dat` files directly into your operating system's data directory:
+   * **Windows:** `%APPDATA%\RonPaulCoin\`
+   * **Linux:** `~/.ronpaulcoin/`
+   * **macOS:** `~/Library/Application Support/RonPaulCoin/`
+4. Relaunch your wallet. It will index directly off the local files instead of slowly requesting blocks across the network.
 
 ---
 
 ## Configuration Guide (`ronpaulcoin.conf`)
 
-Before installing the configuration file, launch your RonPaulCoin wallet for the very first time. Let it run and attempt to sync for a few seconds, then close the program to automatically generate the necessary application directories.
+Before launching the wallet, ensure you have placed the active `ronpaulcoin.conf` into your data directory to connect directly with active consensus seed nodes.
 
 ### Windows Setup
-
 1. Ensure your RonPaulCoin wallet is completely closed.
-2. Open File Explorer and enable **Hidden items** under the View tab.
+2. Open File Explorer and ensure **Hidden items** is checked under the View tab.
 3. Navigate to your app data folder:
-   > `C:\Users\YOUR-USERNAME\AppData\Roaming\RonPaulCoin`
-4. Copy the `ronpaulcoin.conf` file directly into this folder.
-5. Re-open your RonPaulCoin wallet to begin synchronization.
-
-### macOS Setup
-
-1. Ensure your RonPaulCoin wallet is completely closed.
-2. Open Finder, select the **Go** menu from the top menu bar, and choose **Go to Folder...**
-3. Enter `~/Library` and click **Go**.
-4. Open **Application Support**, then open the **RonPaulCoin** folder.
-5. Copy the `ronpaulcoin.conf` file directly into this folder.
-6. Re-open your RonPaulCoin wallet to begin synchronization.
+   ```text
+   C:\Users\YOUR-USERNAME\AppData\Roaming\RonPaulCoin
